@@ -7,8 +7,8 @@ const port = 3000;
 const uri = process.env.MONGODB_URI || "mongodb+srv://alexaraujosj:PROGRAMA@cluster0.uovxtp9.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri, {
-  tls: true,  // Inclua apenas as opções que são realmente necessárias
-  tlsAllowInvalidCertificates: true,  // se necessário, para testes
+  tls: true,  
+  tlsAllowInvalidCertificates: true,  
 });
 
 // Configurar o middleware

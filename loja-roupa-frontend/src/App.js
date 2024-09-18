@@ -12,7 +12,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://vigilant-invention-7v9jwjqg7w7p3x6q5-3001.app.github.dev/add-roupa', {
+      const response = await axios.post('https://loja-proj-nj5elsoz7-alexs-projects-edb9b26d.vercel.app/add-roupa', {
         nome,
         tamanho,
         tipo,
