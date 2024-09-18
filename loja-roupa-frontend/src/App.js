@@ -12,7 +12,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://jubilant-lamp-g4qv6v9gx69j3xqg-3000.app.github.dev/add-roupa', {
+      const response = await axios.post('https://vigilant-invention-7v9jwjqg7w7p3x6q5-3001.app.github.dev/add-roupa', {
         nome,
         tamanho,
         tipo,
