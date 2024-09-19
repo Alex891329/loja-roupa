@@ -12,7 +12,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://vigilant-invention-7v9jwjqg7w7p3x6q5-3000.app.github.dev/add-roupa', {
+      const response = await axios.post('https://loja-roupa.onrender.com/add-roupa', {
         nome,
         tamanho,
         tipo,
